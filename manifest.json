@@ -1,0 +1,17 @@
+{
+  "name": "JIRA selected issues copy",
+  "description": "Copies selected issues as HTML bullet points to the clipboard",
+  "version": "1.0.2",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
